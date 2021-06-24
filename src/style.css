@@ -22,22 +22,20 @@ h1
     color: snow;
     font-weight: bold;
     text-align: center;
-    font-size: 350%;
-    line-height: 20vh;
+    font-size: 300%;
+    margin-right: 200px;
+    margin-left: 470px;
+    margin-top: 25px;
 }
 
-div#logo
+section#logo
 {
-    
-    background-position: center center;
-    width: 400px;
-    height: 300px;
-    position:absolute;
-    margin-left: 470px;
-    margin-right: 300px;
-    margin-top: 580px;
-    height: 30vh;
-    border-radius: 10px;
+    float: left;
+    width: 200px;
+    margin-top: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+    border-radius: 20px;
 }
 
 div#question
@@ -48,9 +46,8 @@ div#question
     text-align: center;
     color: black;
     padding: 0px;
-    height: 15vh;
     position:absolute;
-    top: 210px;
+    top: 190px;
     right: 310px;
     left: 310px;
     border-radius: 5px;
@@ -60,12 +57,12 @@ div#abstract
 {
     background-color: moccasin;
     font-family: cursive;
-    font-size: 18px;
+    font-size: 19px;
     text-align: center;
     color: black;
     padding: 0px;
     position:absolute;
-    top: 330px;
+    top: 300px;
     right: 240px;
     left: 240px;
     border-radius: 5px;
@@ -76,12 +73,11 @@ div#imagen
    background-image: url(../img/tarjeta.png);
     background-position: center center;
     width: 400px;
-    height: 300px;
+    height: 200px;
     position:absolute;
     margin-left: 470px;
     margin-right: 300px;
-    margin-top: 580px;
-    height: 30vh;
+    margin-top: 560px;
     border-radius: 10px;
 }
 
