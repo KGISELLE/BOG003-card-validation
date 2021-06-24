@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
+body
+{
+    background-color: gold;
+    font-family: 'Indie Flower', cursive;
+}
+
+header
+{
+    background-image: url(../img/ima-binario.jpg);
+    background-position: center center;
+    position:absolute;
+    top:0;
+    right:0;
+    left:0;
+    height: 30vh;
+}
+
+h1
+{
+    color: whitesmoke;
+    font-weight: bold;
+    text-align: center;
+    font-size: 350%;
+    line-height: 20vh;
+}
+
+div#question
+{
+    background-color: mintcream;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    position:absolute;
+    top: 220px;
+    down: 0;
+    right: 300px;
+    left:300px;
+    line-height: 1vh;
+}
+
+div#abstract
+{
+    background-color: mintcream;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    position:absolute;
+    top: 280px;
+    down: 0;
+    right: 150px;
+    left:150px;
+}
+
+div#imagen
+{
+   src: url( ..img/ima-binario);
+}
+
+
+footer
+{
+    background-color: black;
+    color:whitesmoke;
+    text-align: center;
+    font-size: 15px;
+    font-family: cursive;
+    padding: 10px;
+    width: 100%
+    height: auto;
+    position:absolute;
+    top: 650px;
+    down:0;
+    right:0;
+    left:0;
+}

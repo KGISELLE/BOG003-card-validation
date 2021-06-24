@@ -1,17 +1,18 @@
-# Tarjeta de crédito válida
+# Card Validation Project 1
 
 ## Índice
 
-* [1. Preámbulo](#1-preámbulo)
-* [2. Resumen del proyecto](#2-resumen-del-proyecto)
-* [3. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pistas, tips y lecturas complementarias](#6-pistas-tips-y-lecturas-complementarias)
-
+* [1. Abstract](#1-Abstract)
+* [2. Final Catch](#2-resumen-del-proyecto)
+* [3. UX research](#3-objetivos-de-aprendizaje)
+** [3.1. User and product goals ](#4-consideraciones-generales)
+** [3.2. How the product solves user problems/requirement](#5-criterios-de-aceptación-mínimos-del-proyecto)
+** [3.3. Paper prototyping pic](#6-pistas-tips-y-lecturas-complementarias)
+** [3.4.User feedback]
+** [3.5. Final Prototype]
 ***
 
-## 1. Preámbulo
+## 1. Abstract
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
