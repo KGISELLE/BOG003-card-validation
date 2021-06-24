@@ -19,11 +19,25 @@ header
 
 h1
 {
-    color: whitesmoke;
+    color: snow;
     font-weight: bold;
     text-align: center;
     font-size: 350%;
     line-height: 20vh;
+}
+
+div#logo
+{
+    
+    background-position: center center;
+    width: 400px;
+    height: 300px;
+    position:absolute;
+    margin-left: 470px;
+    margin-right: 300px;
+    margin-top: 580px;
+    height: 30vh;
+    border-radius: 10px;
 }
 
 div#question
@@ -34,32 +48,41 @@ div#question
     text-align: center;
     color: black;
     padding: 0px;
+    height: 15vh;
     position:absolute;
-    top: 220px;
-    down: 0;
-    right: 300px;
-    left:300px;
-    line-height: 1vh;
+    top: 210px;
+    right: 310px;
+    left: 310px;
+    border-radius: 5px;
 }
 
 div#abstract
 {
-    background-color: mintcream;
+    background-color: moccasin;
     font-family: cursive;
     font-size: 18px;
     text-align: center;
     color: black;
     padding: 0px;
     position:absolute;
-    top: 280px;
-    down: 0;
-    right: 150px;
-    left:150px;
+    top: 330px;
+    right: 240px;
+    left: 240px;
+    border-radius: 5px;
 }
 
 div#imagen
 {
-   src: url( ..img/ima-binario);
+   background-image: url(../img/tarjeta.png);
+    background-position: center center;
+    width: 400px;
+    height: 300px;
+    position:absolute;
+    margin-left: 470px;
+    margin-right: 300px;
+    margin-top: 580px;
+    height: 30vh;
+    border-radius: 10px;
 }
 
 
@@ -74,8 +97,7 @@ footer
     width: 100%;
     height: auto;
     position:absolute;
-    top: 650px;
-    down:0;
+    top: 1200px;
     right:0;
     left:0;
 }

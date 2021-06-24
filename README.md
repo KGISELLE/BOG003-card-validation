@@ -2,17 +2,41 @@
 
 ## Índice
 
-* [1. Abstract](#1-Abstract)
-* [2. Final Catch](#2-resumen-del-proyecto)
-* [3. UX research](#3-objetivos-de-aprendizaje)
-** [3.1. User and product goals ](#4-consideraciones-generales)
-** [3.2. How the product solves user problems/requirement](#5-criterios-de-aceptación-mínimos-del-proyecto)
-** [3.3. Paper prototyping pic](#6-pistas-tips-y-lecturas-complementarias)
-** [3.4.User feedback]
-** [3.5. Final Prototype]
+* [1. Resumen (Abstract)](#1-Resumen)
+* [2. Imagen Final](#2-Imagen-Final)
+* [3. Investigación UX (UX research)](#3-Investigación-UX)
+* [3.1. Usuarios y Objetivos del Producto (User and product goals)](#4-usuarios-y-objetivos-del-producto)
+* [3.2. Cómo el producto resuelve los problemas/necesidades del usuario (How the product solves user problems/requirement)](#5-como-el-producto-resuelve-el-problema)
+* [3.3. Primer Prototipo en papel (First Paper prototyping)](#6-primer-prototipo-en-papel)
+* [3.4. Retroalimentación de Usuarios (User Feedback)](#7-retroalimentacion-de-usuario)
+* [3.5. Prototipo Final (Final Prototype)](#8-prototipo-final)
 ***
 
-## 1. Abstract
+## 1. Resumen (Abstract)
+xxxxxxxxxxxx
+
+## 2. Imagen Final del Proyecto
+
+
+## 3. Investigación UX (UX Research)
+
+### 3.1. Usuarios y Objetivos del Producto (User and product goals)
+xxxxxxxxxxxxxx
+
+### 3.2. Cómo el producto resuelve los problemas/necesidades del usuario (How the product solves user problems/requirement)
+xxxxxxxxxxxxxx
+
+### 3.3. Primer Prototipo en papel (First Paper prototyping)
+
+![Imagen prototipo en papel](img/Paper-prototype.png)
+
+### 3.4. Retroalimentación de Usuarios (User Feedback)
+
+xxxxxxxxxx
+
+### 3.5. Prototipo Final (Final Prototype)
+
+
 
 El [algoritmo de Luhn](https://es.wikipedia.org/wiki/Algoritmo_de_Luhn),
 también llamado algoritmo de módulo 10, es un método de suma de verificación,
