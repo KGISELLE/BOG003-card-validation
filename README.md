@@ -37,7 +37,7 @@ xxxxxxxxxx
 
 ### 3.5. Prototipo Final (Final Prototype)
 
-![Imagen prototipo final en balsamiq](img/Bienvenida.png)
+![Imagen prototipo final en balsamiq](img/bienvenida.png)
 
 ![Imagen prototipo respuesta true](img/validadorpositivo.png)
 
