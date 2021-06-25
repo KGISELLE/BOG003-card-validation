@@ -13,10 +13,10 @@
 
 ***
 
-## 1. Resumen (Abstract)
+# 1. Resumen (Abstract)
 xxxxxxxxxxxx
 
-## 2. Imagen Final del Proyecto
+# 2. Imagen Final del Proyecto
 
 
 ## 3. Investigación UX (UX Research)
@@ -41,7 +41,7 @@ xxxxxxxxxx
 
 ![Imagen prototipo respuesta true](img/validadortrue.png)
 
-[imagen prototipo respuesta valida](img/validadornegativo.png)
+[imagen prototipo respuesta false](img/validadorfalse.png)
 
 
 
