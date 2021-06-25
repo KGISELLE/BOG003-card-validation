@@ -39,7 +39,7 @@ xxxxxxxxxx
 
 ![Imagen prototipo final en balsamiq](img/bienvenida.png)
 
-![Imagen prototipo respuesta true](img/validadorpositivo.png)
+![Imagen prototipo respuesta true](img/validadortrue.png)
 
 [imagen prototipo respuesta valida](img/validadornegativo.png)
 
