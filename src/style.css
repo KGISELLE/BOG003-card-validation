@@ -28,7 +28,7 @@ h1
     margin-top: 25px;
 }
 
-section#logo
+div#logo
 {
     float: left;
     width: 200px;
@@ -101,16 +101,14 @@ form#cardnumber
     box-shadow:black
 }
 
-form#validar
+
+.btnvalidar
 {
     position: absolute;
     margin-top: 850px;
     margin-left: 625px;
     margin-right: 500px;
-}
-
-.btnvalidar
-{
+    
     border-radius: 5px;
     font-size: 20px;
     font-family: cursive;

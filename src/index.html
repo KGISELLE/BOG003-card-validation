@@ -5,22 +5,28 @@
     <title>card validation project 1</title>
     <link rel="stylesheet" href="style.css">
   </head>
+
   <body>
     <header>
 
-      <section id="logo">
+      <!-- Imagen logo del cliente -->
+      <div id="logo">
         <img src= "/img/bansolutions.png" alt="logo">
-      </section>
+      </div>
 
+      <!-- Titulo encabezado web -->
       <h1>Validador Automático de Tarjetas de Crédito Bansolutions</h1>
 
     </header>
 
     <main>
+
+      <!-- pregunta para explicar problema de usuario -->
       <div id="question">
       <p>¿Cómo comprobar sí la tarjeta de crédito Bansolutions que recibiste por correo, es en efecto la tarjeta enviada por nuestro banco?</p>
       </div>
 
+      <!-- descripcion de uso de la app-web -->
       <div id="abstract">
       <p>Fácil!!!
       <br>
@@ -30,26 +36,31 @@
       <br>
       Comencemos!!!</p>
       </div>
-      
+
+      <!-- Imagen de la tarjeta de credito -->
       <div id="imagen"></div>
 
+      <!-- Box de formulario para que el usuario ingrese su numero de tarjeta -->
       <form id="cardnumber">
-        <label for="cardnumber">Ingrese número de tarjeta</label>
-        <input type="text" name="cardnumber" id=cardnumber placeholder="Ingrese número de tarjeta" class= "boxcardnumber" maxlength= 16 required>
+        <label for="number">Ingrese número de tarjeta</label>
+        <input type="text" name="cardnumber" id="number" placeholder="Ingrese número de tarjeta" class= "boxcardnumber" minlength= 18 maxlength= 19 required="" autocomplete="off">
       </form>
 
-      <form id="validar">
-        <input type="submit" name="validar" id="validar" value="VALIDAR" class="btnvalidar">
-      </form>
+      <!-- Boton para validar la informacion ingresada por el cliente en el box de # de tarjeta -->
+      <input type="submit" name="validar" id="btnvalidar" value="VALIDAR" class="btnvalidar" onclick="">
       
 
     </main>
 
-    
 
     <footer>
+
+      <!-- Pie de pagina con info del cliente y otros -->
       &copy;2021 Validador de tarjetas de Crédito Bansolutions °Creado por GisB.
     </footer>
+
     <script src="index.js" type="module"></script>
+
   </body>
+
 </html>
