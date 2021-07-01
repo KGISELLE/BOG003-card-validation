@@ -47,3 +47,12 @@ function arrayInput() {
 function luhncheck() {
 
 }
+
+
+
+
+
+
+
+
+console.log(boxnum.value);

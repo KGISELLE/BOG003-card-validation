@@ -24,7 +24,7 @@ cardnumber.number.addEventListener("keyup", (e) => {
 
 //traer el input del usuario y convertir la data en una variable ///error******
 
-let boxnum = document.getElementById("valorinput");
+let boxnum = document.getElementById("number");
 
 //metodo push//
 let reverse = function (array) {
@@ -36,16 +36,21 @@ let reverse = function (array) {
     let lastposition = sizebox - 1;
 
     for (let i = lastposition; i >= 0; i--) {
-        newArray.push(aray[i]);
+        newArray.push(array[i]);
     }
 
     return newArray;
 
 }
 
-console.log(reverse(boxnum.value));
+// dar funcionalidad al botton validar //
 
-console.log(boxnum.value);
+let button = document.getElementById("btnvalidar");
+
+button.addEventListener("click", () => {
+    console.log(reverse(boxnum.value));
+});
+
 
 
 
