@@ -20,7 +20,7 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ## 2. Imagen Final del Proyecto
 
-![imagen de mi proyecto](http://127.0.0.1:5500/src/index.html)
+![imagen de mi proyecto]()
 
 ***
 
@@ -66,7 +66,7 @@ El producto es una app web que le pregunta al usuario su número de tarjeta y el
 
 ### 3.5. Prototipo Final (Final Prototype)
 
-![imagen prototipo final balsamiq](img/bienvenida.png) 
+![imagen prototipo final balsamiq](img/bienvenida.png)
 
 ![imagen prototipo respuesta true](img/validadortrue.png)
 
