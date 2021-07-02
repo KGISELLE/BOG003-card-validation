@@ -3,13 +3,13 @@
 ## Índice
 
 * [1. Resumen (Abstract)](##1-Resumen-(Abstract))
-* [2. Imagen Final del Proyecto](##-2.-Imagen-Final-del-Proyecto)
+*[2. Imagen Final del Proyecto](##-2.-Imagen-Final-del-Proyecto)
 * [3.Investigación UX (UX research)](##3.-Investigación-UX)
-** [3.1. Usuarios y Objetivos del Producto (User and product goals)](###4-usuarios-y-objetivos-del-producto)
-** [3.2. Cómo el producto resuelve los problemas/necesidades del usuario (How the product solves user problems/requirement)](#5-como-el-producto-resuelve-el-problema)
-** [3.3. Primer Prototipo en papel (First Paper prototyping)](#6-primer-prototipo-en-papel)
-** [3.4. Retroalimentación de Usuarios (User Feedback)](#7-retroalimentacion-de-usuario)
-** [3.5. Prototipo Final (Final Prototype)](#8-prototipo-final)
+* [3.1. Usuarios y Objetivos del Producto (User and product goals)](###4-usuarios-y-objetivos-del-producto)
+* [3.2. Cómo el producto resuelve los problemas/necesidades del usuario (How the product solves user problems/requirement)](#5-como-el-producto-resuelve-el-problema)
+* [3.3. Primer Prototipo en papel (First Paper prototyping)](#6-primer-prototipo-en-papel)
+* [3.4. Retroalimentación de Usuarios (User Feedback)](#7-retroalimentacion-de-usuario)
+* [3.5. Prototipo Final (Final Prototype)](#8-prototipo-final)
 
 ***
 
@@ -64,10 +64,13 @@ El producto es una app web que le pregunta al usuario su número de tarjeta y el
 
 ### 3.5. Prototipo Final (Final Prototype)
 
+Pagina de Inicio
 ![imagen prototipo final balsamiq](img/bienvenida.png)
 
+Respuesta tarjeta válida
 ![imagen prototipo respuesta true](img/validadortrue.png)
 
+Respuesta tarjeta no válida
 ![imagen prototipo respuesta false](img/validadorfalse.png)
 
 
