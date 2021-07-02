@@ -14,11 +14,13 @@
 ***
 
 ## 1. Resumen (Abstract)
-xxxxxxxxxxxx
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 
 ***
 
 ## 2. Imagen Final del Proyecto
+
+![imagen de mi proyecto](http://127.0.0.1:5500/src/index.html)
 
 ***
 
