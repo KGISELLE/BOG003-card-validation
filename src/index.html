@@ -1,66 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>card validation project 1</title>
-    <link rel="stylesheet" href="style.css">
-  </head>
 
-  <body>
-    <header>
+<head>
+  <meta charset="utf-8">
+  <title>card validation project 1</title>
+  <link rel="stylesheet" href="style.css">
+</head>
 
-      <!-- Imagen logo del cliente -->
-      <div id="logo">
-        <img src= "/img/bansolutions.png" alt="logo">
-      </div>
+<body>
+  <header>
 
-      <!-- Titulo encabezado web -->
-      <h1>Validador Automático de Tarjetas de Crédito Bansolutions</h1>
+    <!-- Imagen logo del cliente -->
+    <div id="logo">
+      <img src="/img/bansolutions.png" alt="logo">
+    </div>
 
-    </header>
+    <!-- Titulo encabezado web -->
+    <h1>Validador Automático de Tarjetas de Crédito Bansolutions</h1>
 
-    <main>
+  </header>
 
-      <!-- pregunta para explicar problema de usuario -->
-      <div id="question">
-      <p>¿Cómo comprobar sí la tarjeta de crédito Bansolutions que recibiste por correo, es en efecto la tarjeta enviada por nuestro banco?</p>
-      </div>
+  <main>
 
-      <!-- descripcion de uso de la app-web -->
-      <div id="abstract">
+    <!-- pregunta para explicar problema de usuario -->
+    <div id="question">
+      <p>¿Cómo comprobar sí la tarjeta de crédito Bansolutions que recibiste por correo, es en efecto la tarjeta enviada
+        por nuestro banco?</p>
+    </div>
+
+    <!-- descripcion de uso de la app-web -->
+    <div id="abstract">
       <p>Fácil!!!
-      <br>
-      <br>
-      Verifica por medio de nuestro "Validador automático de tarjeta de crédito", sí tu tarjeta de crédito es válida para comenzar a utilizarla en tus próximas compras online o en cualquier establecimiento de comercio físico, así mismo te mostraremos en la validación sólo los últimos cuatro digitos de tu tarjeta para tu seguridad.
-      <br>
-      <br>
-      Comencemos!!!</p>
-      </div>
+        <br>
+        <br>
+        Verifica por medio de nuestro "Validador automático de tarjeta de crédito", sí tu tarjeta de crédito es válida
+        para comenzar a utilizarla en tus próximas compras online o en cualquier establecimiento de comercio físico, así
+        mismo te mostraremos en la validación sólo los últimos cuatro digitos de tu tarjeta para tu seguridad.
+        <br>
+        <br>
+        Comencemos!!!
+      </p>
+    </div>
 
-      <!-- Imagen de la tarjeta de credito -->
-      <div id="imagen"></div>
+    <!-- Imagen de la tarjeta de credito -->
+    <div id="imagen"></div>
 
-      <!-- Box de formulario para que el usuario ingrese su numero de tarjeta -->
-      <form id="cardnumber">
-        <label for="number">Ingrese número de tarjeta</label>
-        <input type="text" name="cardnumber" id="number" placeholder="Ingrese número de tarjeta" class= "boxcardnumber" minlength= 18 maxlength= 19 required="" autocomplete="off">
-      </form>
+    <!-- Box de formulario para que el usuario ingrese su numero de tarjeta -->
+    <form id="cardnumber">
+      <label for="number">Ingrese número de tarjeta</label>
+      <input type="text" name="cardnumber" id="number" placeholder="Ingrese número de tarjeta" class="boxcardnumber"
+        minlength=18 maxlength=19 required="" autocomplete="off">
+    </form>
 
-      <!-- Boton para validar la informacion ingresada por el cliente en el box de # de tarjeta -->
-      <input type="submit" name="validar" id="btnvalidar" value="VALIDAR" class="btnvalidar" onclick="">
-      
-
-    </main>
+    <!-- Boton para validar la informacion ingresada por el cliente en el box de # de tarjeta -->
+    <input type="submit" name="validar" id="btnvalidar" value="VALIDAR" class="btnvalidar" onclick="">
 
 
-    <footer>
+  </main>
 
-      <!-- Pie de pagina con info del cliente y otros -->
-      &copy;2021 Validador de tarjetas de Crédito Bansolutions °Creado por GisB.
-    </footer>
 
-    <script src="index.js" type="module"></script>
+  <footer>
 
-  </body>
+    <!-- Pie de pagina con info del cliente y otros -->
+    &copy;2021 Validador de tarjetas de Crédito Bansolutions °Creado por GisB.
+  </footer>
+
+  <script src="index.js" type="module"></script>
+
+</body>
 
 </html>
