@@ -22,7 +22,7 @@ cardnumber.number.addEventListener("keyup", (e) => {
 });
 
 
-//traer el input del usuario y convertir la data en una variable ///error******
+//traer el input del usuario y convertir la data en una variable //
 
 let boxnum = document.getElementById("number");
 
@@ -42,6 +42,11 @@ let reverse = function (array) {
     return newArray;
 
 }
+
+//Algoritmo Linear Search
+
+
+
 
 // dar funcionalidad al botton validar //
 

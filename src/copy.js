@@ -56,3 +56,21 @@ function luhncheck() {
 
 
 console.log(boxnum.value);
+
+
+
+
+
+let dobleEvenPosition = function () {
+    reverse * 2;
+
+}
+
+
+
+
+
+
+
+button.addEventListener("click", () => {
+    console.log(reverse(boxnum.value));
