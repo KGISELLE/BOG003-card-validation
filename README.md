@@ -37,9 +37,9 @@ los últimos cuatro digitos, en el resultado de la validación.
 
 ![imagen de mi proyecto](img/imagen-final1.png)
 
-![imagen true](img/imagen-final2.png)
+![imagen true](img/imagen-final3.png)
 
-![imagen false](img/imagen-final3.png)
+![imagen true](img/imagen-final2.png)
 
 ***
 
