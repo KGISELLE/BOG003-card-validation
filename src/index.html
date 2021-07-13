@@ -49,11 +49,10 @@
 
      <!-- Box de formulario para que el usuario ingrese su numero de tarjeta -->
      <form id="cardnumber">
-      <label for="number">Ingrese número de tarjeta</label>
       <input type="text" name="cardnumber" id="number" placeholder="Ingrese número de tarjeta" class="boxcardnumber"
       minlength=15 
       maxlength=16 
-      required="" 
+      required=""
       autocomplete="off">
      </form>
 
@@ -63,12 +62,34 @@
 
     <!-- pagina respuesta tarjeta valida -->
     <section id="tvalida">
-     <!-- respuesta de validacion efectiva -->
-     <div id="truevalidation">
-      <p>Tu tarjeta de crédito número</p>
-    </div>
+     <!-- respuesta de validacion true -->
+      <div id="truevalidation">
+      <p>Tu tarjeta de crédito <span style="color:teal"><strong>ES VALIDA</strong></span>
+      <br><br>Esta lista para su uso en cualquier establecimiento de comercio fisico o en linea.
+      <br><br>A comprar!!!</p></div>
 
+      <div id="imagen-compras"></div>
 
+      <input type="button" name="regresar" id="btnregresar" value="VALIDAR OTRA TARJETA" class="btnregresar" onclick="">
+
+    </section>
+
+    <!-- pagina respuesta tarjeta Invalida -->
+    <section id="tinvalida">
+      <!-- respuesta de validacion false -->
+      <div id="falsevalidation">
+        <p>Tu tarjeta de crédito <span style="color:red"><strong>NO ES VALIDA</strong></span>.</p></div>
+
+      <div id="sugerencias"
+       <p>Por favor rectifica el numero que aparece en la parte frontal de tu tarjeta e intenta nuevamente ó ponte en contacto inmediatamente con nosotros.</p>
+         <a href="www.ayuda-bansolutions.com">www.ayuda-bansolutions.com</a>
+       <div> 
+      
+      <div id="imagen-llamar"></div>
+
+      <input type="button" name="rectificar" id="btnrectificar" value="RECTIFICAR NUMERO" class="btnrectificar" onclick="">
+
+      
     </section>
 
 

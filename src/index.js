@@ -25,6 +25,7 @@ let boxnum = document.getElementById("number");
 
 //crear funcion para validar el input del usuario//
 function validate() {
+    
     //Obtener el valor en cada posicion del input del usuario
     let inputNum = boxnum.value
 
@@ -67,10 +68,12 @@ function validate() {
     //imprimir en la consola la suma de todos los numeros (posiciones pares e impares)
     //console.log(sum);
     if (sum % 10 == 0) {
-        console.log("Tarjeta Valida")
+        //console.log("Tarjeta Valida")
+        return true
     } else {
-        console.log("Tarjeta Invalida")
-    }
+        //console.log("Tarjeta Invalida")
+        return false
+    } 
 }
 
 
@@ -79,13 +82,55 @@ function validate() {
 let button = document.getElementById("btnvalidar");
 
 button.addEventListener("click", function () {
-    validate()
+    validate();
+    
+    //console.log(validate());
 
-    //1. ocultar pagina bienvenida
-    document.getElementById("bienvenida").style.display = "none";
-
-    //2. mostrar vista resultado tarjeta valida o invalida
-    document.getElementById("tvalida").style.display = "block";
+    //si input es campo vacio que me retorne un alert al usuario campo vacio
+    if (boxnum.value == "") {
+        alert("Por favor ingrese un numero de tarjeta")
+    }
+    
+    //si validate is true que me retorne la respuesta mostrar tarjeta validate.
+    else {
+        if (validate()) {
+            //1. ocultar pagina bienvenida
+            document.getElementById("bienvenida").style.display = "none";
+            //2. mostrar vista resultado tarjeta valida
+            document.getElementById("tvalida").style.display = "block";
+        }
+        else {
+            //1. ocultar pagina bienvenida
+            document.getElementById("bienvenida").style.display = "none";
+            //2. mostrar vista resultado tarjeta valida
+            document.getElementById("tinvalida").style.display = "block";
+            
+        }
+        
+    } 
+   
+    console.log(validate());
 
 });
+
+
+// dar funcionalidad al botton regresar //
+let regresar = document.getElementById("btnregresar");
+regresar.addEventListener("click", function () {
+    //1. ocultar vista resultado tarjeta valida
+    document.getElementById("tvalida").style.display = "none";
+    //2. mostrar pagina bienvenida
+    document.getElementById("bienvenida").style.display = "block";
+});
+
+
+// dar funcionalidad al botton rectificar //
+let rectificar = document.getElementById("btnrectificar");
+rectificar.addEventListener("click", function () {
+    //1. ocultar vista resultado tarjeta invalida
+    document.getElementById("tinvalida").style.display = "none";
+    //2. mostrar pagina bienvenida
+    document.getElementById("bienvenida").style.display = "block";
+});
+
 

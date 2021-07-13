@@ -84,8 +84,8 @@ div#imagen
 form#cardnumber
 {
     position: absolute;
-    margin-top: 770px;
-    margin-left: 515px;
+    margin-top: 800px;
+    margin-left: 540px;
     margin-right: 500px;
     font-family: cursive;
     font-size: 20px;
@@ -108,7 +108,6 @@ form#cardnumber
     margin-top: 850px;
     margin-left: 625px;
     margin-right: 500px;
-    
     border-radius: 5px;
     font-size: 20px;
     font-family: cursive;
@@ -136,18 +135,90 @@ footer
 
 
 
-div#truevalidation
+section#tvalida
 {
-    display: none;
+    display:none;
     background-color: mintcream;
     font-family: cursive;
     font-size: 20px;
     text-align: center;
     color: black;
-    padding: 0px;
+    width: 500px;
+    padding: 0% 3%;
     position: absolute;
-    top: 200px;
+    top: 220px;
+    right: 310px;
+    left: 400px;
+    border-radius: 5px;
+}
+
+div#imagen-compras
+{
+   background-image: url(../img/compras.png);
+    background-position: center center;
+    width: 480px;
+    height: 260px;
+    position: absolute;
+    margin-left: 20px;
+    margin-right: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.btnregresar
+{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: -130px;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: black;
+    color: snow;
+    box-shadow: chocolate;
+}
+
+
+section#tinvalida
+{
+    display:none;
+    background-color: mintcream;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 10px;
+    position: absolute;
+    top: 220px;
     right: 310px;
     left: 310px;
     border-radius: 5px;
+}
+
+div#imagen-llamar
+{
+   background-image: url(../img/llamar.png);
+    background-position: center center;
+    width: 370px;
+    height: 245px;
+    position: absolute;
+    margin-left: 160px;
+    margin-right: 300px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.btnrectificar
+{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: -120px;
+    margin-right: auto;
+    border-radius: 5px;
+    font-size: 20px;
+    font-family: cursive;
+    background-color: black;
+    color: snow;
+    box-shadow: chocolate;
 }

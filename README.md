@@ -35,7 +35,11 @@ los últimos cuatro digitos, en el resultado de la validación.
 
 ## 2. Imagen Final del Proyecto
 
-![imagen de mi proyecto]()
+![imagen de mi proyecto](img/imagen-final1.png)
+
+![imagen true](img/imagen-final2.png)
+
+![imagen false](img/imagen-final3.png)
 
 ***
 
