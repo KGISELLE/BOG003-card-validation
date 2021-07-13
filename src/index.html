@@ -9,7 +9,7 @@
 
 <body>
   <header>
-
+    
     <!-- Imagen logo del cliente -->
     <div id="logo">
       <img src="/img/bansolutions.png" alt="logo">
@@ -22,14 +22,17 @@
 
   <main>
 
-    <!-- pregunta para explicar problema de usuario -->
-    <div id="question">
-      <p>¿Cómo comprobar sí la tarjeta de crédito Bansolutions que recibiste por correo, es en efecto la tarjeta enviada
-        por nuestro banco?</p>
-    </div>
+    <!-- pagina bienvenida -->
 
-    <!-- descripcion de uso de la app-web -->
-    <div id="abstract">
+    <section id = "bienvenida">
+
+     <!-- pregunta para explicar problema de usuario -->
+     <div id="question">
+      <p>¿Cómo comprobar sí la tarjeta de crédito Bansolutions que recibiste por correo, es en efecto la tarjeta enviada por nuestro banco?</p>
+     </div>
+
+     <!-- descripcion de uso de la app-web -->
+     <div id="abstract">
       <p>Fácil!!!
         <br>
         <br>
@@ -38,22 +41,35 @@
         mismo te mostraremos en la validación sólo los últimos cuatro digitos de tu tarjeta para tu seguridad.
         <br>
         <br>
-        Comencemos!!!
-      </p>
-    </div>
+        Comencemos!!!</p>
+     </div>
 
-    <!-- Imagen de la tarjeta de credito -->
-    <div id="imagen"></div>
+     <!-- Imagen de la tarjeta de credito -->
+     <div id="imagen"></div>
 
-    <!-- Box de formulario para que el usuario ingrese su numero de tarjeta -->
-    <form id="cardnumber">
+     <!-- Box de formulario para que el usuario ingrese su numero de tarjeta -->
+     <form id="cardnumber">
       <label for="number">Ingrese número de tarjeta</label>
       <input type="text" name="cardnumber" id="number" placeholder="Ingrese número de tarjeta" class="boxcardnumber"
-        minlength=18 maxlength=19 required="" autocomplete="off">
-    </form>
+      minlength=15 
+      maxlength=16 
+      required="" 
+      autocomplete="off">
+     </form>
 
-    <!-- Boton para validar la informacion ingresada por el cliente en el box de # de tarjeta -->
-    <input type="submit" name="validar" id="btnvalidar" value="VALIDAR" class="btnvalidar" onclick="">
+     <!-- Boton para validar la informacion ingresada por el cliente en el box de # de tarjeta -->
+     <input type="submit" name="validar" id="btnvalidar" value="VALIDAR" class="btnvalidar" onclick="">
+    </section>
+
+    <!-- pagina respuesta tarjeta valida -->
+    <section id="tvalida">
+     <!-- respuesta de validacion efectiva -->
+     <div id="truevalidation">
+      <p>Tu tarjeta de crédito número</p>
+    </div>
+
+
+    </section>
 
 
   </main>

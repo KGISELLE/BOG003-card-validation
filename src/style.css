@@ -133,3 +133,21 @@ footer
     right:0;
     left:0;
 }
+
+
+
+div#truevalidation
+{
+    display: none;
+    background-color: mintcream;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    color: black;
+    padding: 0px;
+    position: absolute;
+    top: 200px;
+    right: 310px;
+    left: 310px;
+    border-radius: 5px;
+}
