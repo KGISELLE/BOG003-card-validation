@@ -1,6 +1,6 @@
 import validator from './validator.js';
 
-console.log(validator);
+//console.log(validator);
 
 
 // Código para invocar funcionalidad del boton VALIDAR y dar formato a la info ingresada por el usuario//
@@ -9,16 +9,15 @@ console.log(validator);
 
 let cardnumber = document.getElementById("cardnumber");
 
-
 cardnumber.number.addEventListener("keyup", (e) => {
     let valorInput = e.target.value;
-
+    
     // metodo para dar formato al input del usuario//
     cardnumber.number.value = valorInput
         // eliminar espacios en blanco con expresiones regulares //
         .replace(/\s/g, "")
         // eliminar las letras con expresiones regulares//
-        .replace(/\D/g, "")    
+        .replace(/\D/g, "")
 });
 
 
@@ -29,12 +28,16 @@ let boxnum = document.getElementById("number");
 //Obtener input del usuario como un valor.
 let inputNum = boxnum.value;
 
-
 // dar funcionalidad al botton validar //
 let button = document.getElementById("btnvalidar");
 
+//declarar variable para guardar resultado de isValid
+let check = validator.isValid(inputNum);
+console.log(check)
+
+
 button.addEventListener("click", function () {
-    let check = validator.isValid(inputNum);
+    
     //si input es campo vacio que me retorne un alert al usuario campo vacio
     if (check === "") {
         alert("Por favor ingrese un numero de tarjeta");
@@ -45,11 +48,27 @@ button.addEventListener("click", function () {
         document.getElementById("bienvenida").style.display = "none";
         //2. mostrar vista resultado tarjeta valida
         document.getElementById("tvalida").style.display = "block";
+        
+        //mostrar el numero de tarjeta enmascarado como resultado
+        let enmascarado = cardnumber.number.value
+        //enmascar los digitos del input del usuario menos los ultimos 4.
+        let maskNumber = validator.maskify(enmascarado);
+        //console.log(maskNumber)
+        document.getElementById("resultChange").innerHTML = maskNumber;
+
     } else {
         //1. ocultar pagina bienvenida
         document.getElementById("bienvenida").style.display = "none";
         //2. mostrar vista resultado tarjeta valida
         document.getElementById("tinvalida").style.display = "block";
+
+        //mostrar el numero de tarjeta enmascarado como resultado
+        let enmascarado = cardnumber.number.value
+        //enmascar los digitos del input del usuario menos los ultimos 4.
+        let maskNumber = validator.maskify(enmascarado);
+        //console.log(maskNumber)
+        document.getElementById("resultInvalid").innerHTML = maskNumber;
+
     }
 
 });
